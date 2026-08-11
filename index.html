@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>miplib — соцсети</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;background:#000;color:#fff;font-family:Arial,sans-serif}
+body{min-height:100vh;overflow-x:hidden}.page{width:min(760px,100%);margin:auto;padding-bottom:40px}
+.hero{position:relative;height:min(78vh,760px);min-height:520px;overflow:hidden;display:flex;align-items:flex-end;justify-content:center}
+.hero:before{content:"";position:absolute;inset:0;background:url("background.png") center/cover no-repeat}
+.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(to bottom,transparent 45%,rgba(0,0,0,.25) 62%,#000 100%)}
+.hero-title{position:relative;z-index:2;text-align:center;padding:0 20px 38px}
+h1{margin:0;font-size:clamp(40px,10vw,68px);line-height:1;text-shadow:0 4px 25px #000}
+.hero-title p{margin:10px 0 0;font-size:20px;color:#ddd}
+.links{padding:5px 28px;display:grid;gap:18px}
+.link{min-height:82px;display:flex;align-items:center;gap:18px;padding:12px 22px 12px 14px;border-radius:42px;text-decoration:none;color:#fff;font-size:22px;font-weight:700;background:rgba(37,31,78,.92);border:1px solid rgba(255,255,255,.08);box-shadow:0 8px 28px rgba(0,0,0,.35);transition:.2s}
+.link:hover{transform:translateY(-3px);filter:brightness(1.12)}
+.icon{width:58px;height:58px;flex:0 0 58px;border-radius:50%;display:grid;place-items:center;font-size:30px;font-weight:900;background:#fff;color:#229ed9}
+.tiktok{background:#171717;color:#fff}.arrow{margin-left:auto;font-size:34px;color:#ddd}
+.footer{text-align:center;color:#777;font-size:13px;margin-top:28px}
+@media(max-width:520px){.hero{min-height:500px;height:72vh}.links{padding:5px 18px;gap:14px}.link{min-height:72px;font-size:19px}.icon{width:52px;height:52px;flex-basis:52px;font-size:26px}}
+</style>
+</head>
+<body>
+<main class="page">
+<section class="hero"><div class="hero-title"><p>Мои соцсети</p></div></section>
+<section class="links">
+<a class="link" href="https://t.me/FBRkonter" target="_blank" rel="noopener"><span class="icon">✈</span><span>Telegram</span><span class="arrow">›</span></a>
+<a class="link" href="https://www.tiktok.com/@kenyy.flag" target="_blank" rel="noopener"><span class="icon tiktok">♪</span><span>TikTok</span><span class="arrow">›</span></a>
+</section>
+
+</main>
+</body>
+</html>
